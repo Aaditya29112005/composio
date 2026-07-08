@@ -1,0 +1,428 @@
+{
+  "total_apps": 100,
+  "auth_distribution": {
+    "OAuth2": 55,
+    "API Key": 49,
+    "Bearer Token": 33,
+    "Basic Auth": 12,
+    "Gated": 6,
+    "None": 3
+  },
+  "self_serve_distribution": {
+    "Gated": 6,
+    "Self-Serve": 65,
+    "Paid Plan": 13,
+    "Contact Sales": 13,
+    "Free Trial": 3
+  },
+  "category_summary": {
+    "CRM and Sales": {
+      "total": 10,
+      "self_serve_count": 7,
+      "self_serve_percentage": 70.0,
+      "average_score": 87.3,
+      "breakdown": {
+        "Self-Serve": 7,
+        "Paid Plan": 1,
+        "Contact Sales": 1,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 1
+      }
+    },
+    "Support and Helpdesk": {
+      "total": 10,
+      "self_serve_count": 6,
+      "self_serve_percentage": 60.0,
+      "average_score": 84.7,
+      "breakdown": {
+        "Self-Serve": 6,
+        "Paid Plan": 3,
+        "Contact Sales": 1,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 0
+      }
+    },
+    "Communications and Messaging": {
+      "total": 10,
+      "self_serve_count": 9,
+      "self_serve_percentage": 90.0,
+      "average_score": 93.7,
+      "breakdown": {
+        "Self-Serve": 9,
+        "Paid Plan": 1,
+        "Contact Sales": 0,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 0
+      }
+    },
+    "Marketing, Ads, Email and Social": {
+      "total": 10,
+      "self_serve_count": 6,
+      "self_serve_percentage": 60.0,
+      "average_score": 78.7,
+      "breakdown": {
+        "Self-Serve": 6,
+        "Paid Plan": 1,
+        "Contact Sales": 0,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 3
+      }
+    },
+    "Ecommerce": {
+      "total": 10,
+      "self_serve_count": 6,
+      "self_serve_percentage": 60.0,
+      "average_score": 74.7,
+      "breakdown": {
+        "Self-Serve": 6,
+        "Paid Plan": 1,
+        "Contact Sales": 1,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 2
+      }
+    },
+    "Data, SEO and Scraping": {
+      "total": 10,
+      "self_serve_count": 6,
+      "self_serve_percentage": 60.0,
+      "average_score": 81.4,
+      "breakdown": {
+        "Self-Serve": 6,
+        "Paid Plan": 3,
+        "Contact Sales": 1,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 0
+      }
+    },
+    "Developer, Infra and Data platforms": {
+      "total": 10,
+      "self_serve_count": 8,
+      "self_serve_percentage": 80.0,
+      "average_score": 95.2,
+      "breakdown": {
+        "Self-Serve": 8,
+        "Paid Plan": 0,
+        "Contact Sales": 0,
+        "Partner Only": 0,
+        "Free Trial": 2,
+        "Other Gated": 0
+      }
+    },
+    "Productivity and Project Management": {
+      "total": 10,
+      "self_serve_count": 10,
+      "self_serve_percentage": 100.0,
+      "average_score": 95.1,
+      "breakdown": {
+        "Self-Serve": 10,
+        "Paid Plan": 0,
+        "Contact Sales": 0,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 0
+      }
+    },
+    "Finance and Fintech": {
+      "total": 10,
+      "self_serve_count": 4,
+      "self_serve_percentage": 40.0,
+      "average_score": 70.7,
+      "breakdown": {
+        "Self-Serve": 4,
+        "Paid Plan": 2,
+        "Contact Sales": 3,
+        "Partner Only": 0,
+        "Free Trial": 1,
+        "Other Gated": 0
+      }
+    },
+    "AI, Research and Media-native": {
+      "total": 10,
+      "self_serve_count": 3,
+      "self_serve_percentage": 30.0,
+      "average_score": 51.3,
+      "breakdown": {
+        "Self-Serve": 3,
+        "Paid Plan": 1,
+        "Contact Sales": 6,
+        "Partner Only": 0,
+        "Free Trial": 0,
+        "Other Gated": 0
+      }
+    }
+  },
+  "blockers_distribution": {
+    "Paid Plan": 12,
+    "Contact Sales": 8,
+    "Partner Program": 5,
+    "No Public API": 5,
+    "Enterprise Only": 1
+  },
+  "api_type_distribution": {
+    "Both": 7,
+    "REST": 82,
+    "GraphQL": 3,
+    "None": 5,
+    "CLI": 3
+  },
+  "api_scope_distribution": {
+    "Broad": 62,
+    "Medium": 21,
+    "Narrow": 12,
+    "None": 5
+  },
+  "mcp_distribution": {
+    "Yes - Community": 38,
+    "No": 58,
+    "Yes - Official": 4
+  },
+  "verdict_distribution": {
+    "Ready": 81,
+    "Gated": 14,
+    "Blocked": 5
+  },
+  "metrics": {
+    "easy_wins_count": 38,
+    "outreach_needed_count": 18,
+    "ready_count": 81,
+    "gated_count": 14,
+    "blocked_count": 5
+  },
+  "clusters": {
+    "easy_wins": [
+      {
+        "id": 5,
+        "name": "Twenty",
+        "category": "CRM and Sales",
+        "score": 100,
+        "has_mcp": "Yes - Community",
+        "api_type": "Both"
+      },
+      {
+        "id": 27,
+        "name": "Telegram",
+        "category": "Communications and Messaging",
+        "score": 100,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      },
+      {
+        "id": 56,
+        "name": "Firecrawl",
+        "category": "Data, SEO and Scraping",
+        "score": 100,
+        "has_mcp": "Yes - Official",
+        "api_type": "REST"
+      },
+      {
+        "id": 61,
+        "name": "GitHub",
+        "category": "Developer, Infra and Data platforms",
+        "score": 100,
+        "has_mcp": "Yes - Official",
+        "api_type": "Both"
+      },
+      {
+        "id": 73,
+        "name": "Linear",
+        "category": "Productivity and Project Management",
+        "score": 100,
+        "has_mcp": "Yes - Community",
+        "api_type": "GraphQL"
+      },
+      {
+        "id": 81,
+        "name": "Stripe",
+        "category": "Finance and Fintech",
+        "score": 100,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      },
+      {
+        "id": 98,
+        "name": "Mermaid CLI",
+        "category": "AI, Research and Media-native",
+        "score": 100,
+        "has_mcp": "Yes - Community",
+        "api_type": "CLI"
+      },
+      {
+        "id": 4,
+        "name": "Attio",
+        "category": "CRM and Sales",
+        "score": 98,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      },
+      {
+        "id": 17,
+        "name": "Plain",
+        "category": "Support and Helpdesk",
+        "score": 98,
+        "has_mcp": "Yes - Community",
+        "api_type": "GraphQL"
+      },
+      {
+        "id": 21,
+        "name": "Slack",
+        "category": "Communications and Messaging",
+        "score": 98,
+        "has_mcp": "Yes - Official",
+        "api_type": "REST"
+      },
+      {
+        "id": 22,
+        "name": "Twilio",
+        "category": "Communications and Messaging",
+        "score": 98,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      },
+      {
+        "id": 26,
+        "name": "Discord",
+        "category": "Communications and Messaging",
+        "score": 98,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      },
+      {
+        "id": 40,
+        "name": "SendGrid",
+        "category": "Marketing, Ads, Email and Social",
+        "score": 98,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      },
+      {
+        "id": 42,
+        "name": "WooCommerce",
+        "category": "Ecommerce",
+        "score": 98,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      },
+      {
+        "id": 55,
+        "name": "Apify",
+        "category": "Data, SEO and Scraping",
+        "score": 98,
+        "has_mcp": "Yes - Community",
+        "api_type": "REST"
+      }
+    ],
+    "outreach_needed": [
+      {
+        "id": 91,
+        "name": "NotebookLM",
+        "category": "AI, Research and Media-native",
+        "score": 5,
+        "blocker": "No Public API"
+      },
+      {
+        "id": 50,
+        "name": "fanbasis",
+        "category": "Ecommerce",
+        "score": 10,
+        "blocker": "No Public API"
+      },
+      {
+        "id": 92,
+        "name": "Otter AI",
+        "category": "AI, Research and Media-native",
+        "score": 10,
+        "blocker": "No Public API"
+      },
+      {
+        "id": 85,
+        "name": "iPayX",
+        "category": "Finance and Fintech",
+        "score": 15,
+        "blocker": "No Public API"
+      },
+      {
+        "id": 94,
+        "name": "Consensus",
+        "category": "AI, Research and Media-native",
+        "score": 15,
+        "blocker": "No Public API"
+      },
+      {
+        "id": 90,
+        "name": "PitchBook",
+        "category": "Finance and Fintech",
+        "score": 30,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 59,
+        "name": "Waterfall.io",
+        "category": "Data, SEO and Scraping",
+        "score": 35,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 84,
+        "name": "Paygent Connect",
+        "category": "Finance and Fintech",
+        "score": 35,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 97,
+        "name": "higgsfield",
+        "category": "AI, Research and Media-native",
+        "score": 38,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 10,
+        "name": "DealCloud",
+        "category": "CRM and Sales",
+        "score": 40,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 100,
+        "name": "Grain",
+        "category": "AI, Research and Media-native",
+        "score": 40,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 20,
+        "name": "Gladly",
+        "category": "Support and Helpdesk",
+        "score": 45,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 49,
+        "name": "Amazon Selling Partner",
+        "category": "Ecommerce",
+        "score": 45,
+        "blocker": "Partner Program"
+      },
+      {
+        "id": 93,
+        "name": "Fathom",
+        "category": "AI, Research and Media-native",
+        "score": 45,
+        "blocker": "Contact Sales"
+      },
+      {
+        "id": 33,
+        "name": "LinkedIn Ads",
+        "category": "Marketing, Ads, Email and Social",
+        "score": 50,
+        "blocker": "Partner Program"
+      }
+    ]
+  }
+}
