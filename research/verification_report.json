@@ -1,0 +1,719 @@
+{
+  "total_samples": 20,
+  "pass1_accuracy": 86.0,
+  "pass2_accuracy": 100.0,
+  "metrics": {
+    "auth_accuracy": {
+      "pass1": 80.0,
+      "pass2": 100.0
+    },
+    "self_serve_accuracy": {
+      "pass1": 90.0,
+      "pass2": 100.0
+    },
+    "api_surface_accuracy": {
+      "pass1": 80.0,
+      "pass2": 100.0
+    },
+    "verdict_accuracy": {
+      "pass1": 90.0,
+      "pass2": 100.0
+    },
+    "blocker_accuracy": {
+      "pass1": 90.0,
+      "pass2": 100.0
+    }
+  },
+  "detailed": [
+    {
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "pass1": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "pass1": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "pass2": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "gold": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Plain",
+      "category": "Support and Helpdesk",
+      "pass1": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "GraphQL",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "GraphQL",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": true,
+      "errors": []
+    },
+    {
+      "name": "Gladly",
+      "category": "Support and Helpdesk",
+      "pass1": {
+        "auth_methods": [
+          "API Key",
+          "Basic Auth"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "pass2": {
+        "auth_methods": [
+          "API Key",
+          "Basic Auth"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "gold": {
+        "auth_methods": [
+          "API Key",
+          "Basic Auth"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Telegram",
+      "category": "Communications and Messaging",
+      "pass1": {
+        "auth_methods": [
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "pass1": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Gated",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Partner Program"
+      },
+      "pass2": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Gated",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Partner Program"
+      },
+      "gold": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Gated",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Partner Program"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Mailchimp",
+      "category": "Marketing, Ads, Email and Social",
+      "pass1": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "fanbasis",
+      "category": "Ecommerce",
+      "pass1": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "None",
+        "verdict": "Blocked",
+        "blocker": "No Public API"
+      },
+      "pass2": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "None",
+        "verdict": "Blocked",
+        "blocker": "No Public API"
+      },
+      "gold": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "None",
+        "verdict": "Blocked",
+        "blocker": "No Public API"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "pass1": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "pass1": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Sherlock",
+      "category": "Data, SEO and Scraping",
+      "pass1": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "None"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "CLI",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "None"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "CLI",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": true,
+      "errors": []
+    },
+    {
+      "name": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "pass1": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "Both",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Snowflake",
+      "category": "Developer, Infra and Data platforms",
+      "pass1": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Free Trial",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Free Trial",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "OAuth2",
+          "API Key"
+        ],
+        "self_serve": "Free Trial",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Linear",
+      "category": "Productivity and Project Management",
+      "pass1": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "GraphQL",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "GraphQL",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "GraphQL",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "pass1": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "pass1": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "pass2": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "gold": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "PitchBook",
+      "category": "Finance and Fintech",
+      "pass1": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "pass2": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "gold": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "REST",
+        "verdict": "Gated",
+        "blocker": "Contact Sales"
+      },
+      "corrected": false,
+      "errors": []
+    },
+    {
+      "name": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "pass1": {
+        "auth_methods": [
+          "OAuth2"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "None",
+        "verdict": "Blocked",
+        "blocker": "No Public API"
+      },
+      "gold": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "None",
+        "verdict": "Blocked",
+        "blocker": "No Public API"
+      },
+      "corrected": true,
+      "errors": []
+    },
+    {
+      "name": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "pass1": {
+        "auth_methods": [
+          "API Key"
+        ],
+        "self_serve": "Paid Plan",
+        "api_surface": "REST",
+        "verdict": "Ready",
+        "blocker": "Paid Plan"
+      },
+      "pass2": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "None",
+        "verdict": "Blocked",
+        "blocker": "No Public API"
+      },
+      "gold": {
+        "auth_methods": [
+          "Gated"
+        ],
+        "self_serve": "Contact Sales",
+        "api_surface": "None",
+        "verdict": "Blocked",
+        "blocker": "No Public API"
+      },
+      "corrected": true,
+      "errors": []
+    },
+    {
+      "name": "Mermaid CLI",
+      "category": "AI, Research and Media-native",
+      "pass1": {
+        "auth_methods": [
+          "None"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "CLI",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "pass2": {
+        "auth_methods": [
+          "None"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "CLI",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "gold": {
+        "auth_methods": [
+          "None"
+        ],
+        "self_serve": "Self-Serve",
+        "api_surface": "CLI",
+        "verdict": "Ready",
+        "blocker": "None"
+      },
+      "corrected": false,
+      "errors": []
+    }
+  ]
+}
